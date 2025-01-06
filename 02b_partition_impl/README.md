@@ -1,4 +1,4 @@
-# Sample of C++20 Module Partitions (with implementation unit only)
+# Sample of C++20 Module Partitions (with implementation unit)
 
 ## Document
 
