@@ -1,0 +1,10 @@
+/.vs/
+x64/
+*.ifc
+*.gcm
+*.pcm
+*.user
+*.o
+*.obj
+*.exe
+a.out
