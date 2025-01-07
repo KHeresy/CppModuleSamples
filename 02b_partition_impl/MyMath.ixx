@@ -5,7 +5,7 @@ export module MyMath;
 export import :Types;
 export import :Compute;
 
-import :Impl;
+import :Internal;
 
 export std::string to_string(const CVec2& v)
 {

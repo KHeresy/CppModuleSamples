@@ -1,7 +1,7 @@
 module;
 #include <string>
 #include <sstream>
-module MyMath:Impl;
+module MyMath:Internal;
 
 import :Types;
 
