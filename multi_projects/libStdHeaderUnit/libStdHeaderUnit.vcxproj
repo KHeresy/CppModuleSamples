@@ -19,21 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyMath.IO.ixx" />
-    <ClCompile Include="MyMath.ixx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\libStdHeaderUnit\libStdHeaderUnit.vcxproj">
-      <Project>{3adf16b1-86b5-4c0d-9e9e-3f552b205515}</Project>
-    </ProjectReference>
+    <ClCompile Include="std.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7266D3AA-CE04-482D-BF3C-EBF82A95E18C}</ProjectGuid>
+    <ProjectGuid>{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}</ProjectGuid>
     <RootNamespace>My01basic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>libMyMath</ProjectName>
+    <ProjectName>libStdHeaderUnit</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -87,6 +81,8 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <TranslateIncludes>true</TranslateIncludes>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +98,8 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <TranslateIncludes>true</TranslateIncludes>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -117,6 +115,8 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <TranslateIncludes>true</TranslateIncludes>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,6 +132,8 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <TranslateIncludes>true</TranslateIncludes>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

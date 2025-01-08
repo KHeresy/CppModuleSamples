@@ -1,5 +1,4 @@
-#include <iostream>
-
+import <iostream>;
 import MyMath.IO;
 
 int main()
