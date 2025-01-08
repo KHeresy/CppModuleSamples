@@ -6,5 +6,7 @@ x64/
 *.user
 *.o
 *.obj
+*.a
+*.lib
 *.exe
 a.out
