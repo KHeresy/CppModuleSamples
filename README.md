@@ -1,5 +1,5 @@
-# Sample of C++20 Modules
+# Samples of C++20 Modules
 
 ## Document
 
-see: (Traditional Chinese)
+See my blog in Traditional Chinese: https://kheresy.wordpress.com/2025/01/07/modules-of-cpp-20/
