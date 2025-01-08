@@ -1,7 +1,7 @@
 export module MyMath.IO;
 
 export import <iostream>;
-export import MyMath;
+export import MyMath.Types;
 
 export std::ostream& operator<<(std::ostream& os, const CVec2& v)
 {

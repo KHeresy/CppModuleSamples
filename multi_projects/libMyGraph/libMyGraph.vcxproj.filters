@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyMath.ixx">
+    <ClCompile Include="MyGraph.ixx">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="MyMath.IO.ixx">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="MyMath.Types.ixx">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="MyMath.Compute.ixx">
+    <ClCompile Include="MyGraph_Impl.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

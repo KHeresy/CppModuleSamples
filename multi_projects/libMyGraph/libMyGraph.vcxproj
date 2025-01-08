@@ -19,23 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyMath.Compute.ixx" />
-    <ClCompile Include="MyMath.IO.ixx" />
-    <ClCompile Include="MyMath.ixx" />
-    <ClCompile Include="MyMath.Types.ixx" />
+    <ClCompile Include="MyGraph_Impl.cpp" />
+    <ClCompile Include="MyGraph.ixx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\libStdHeaderUnit\libStdHeaderUnit.vcxproj">
-      <Project>{3adf16b1-86b5-4c0d-9e9e-3f552b205515}</Project>
+    <ProjectReference Include="..\libMyMath\libMyMath.vcxproj">
+      <Project>{7266d3aa-ce04-482d-bf3c-ebf82a95e18c}</Project>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7266D3AA-CE04-482D-BF3C-EBF82A95E18C}</ProjectGuid>
+    <ProjectGuid>{3C6C56CD-1868-42AC-BDAC-F92AB3095038}</ProjectGuid>
     <RootNamespace>My01basic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>libMyMath</ProjectName>
+    <ProjectName>MyGraph</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

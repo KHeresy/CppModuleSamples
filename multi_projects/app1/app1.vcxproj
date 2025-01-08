@@ -134,6 +134,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\libMyGraph\libMyGraph.vcxproj">
+      <Project>{3c6c56cd-1868-42ac-bdac-f92ab3095038}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\libMyMath\libMyMath.vcxproj">
       <Project>{7266d3aa-ce04-482d-bf3c-ebf82a95e18c}</Project>
     </ProjectReference>

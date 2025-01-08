@@ -21,6 +21,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app1", "multi_projects\app1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libMyMath", "multi_projects\libMyMath\libMyMath.vcxproj", "{7266D3AA-CE04-482D-BF3C-EBF82A95E18C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libStdHeaderUnit", "multi_projects\libStdHeaderUnit\libStdHeaderUnit.vcxproj", "{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGraph", "multi_projects\libMyGraph\libMyGraph.vcxproj", "{3C6C56CD-1868-42AC-BDAC-F92AB3095038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -93,6 +97,22 @@ Global
 		{7266D3AA-CE04-482D-BF3C-EBF82A95E18C}.Release|x64.Build.0 = Release|x64
 		{7266D3AA-CE04-482D-BF3C-EBF82A95E18C}.Release|x86.ActiveCfg = Release|Win32
 		{7266D3AA-CE04-482D-BF3C-EBF82A95E18C}.Release|x86.Build.0 = Release|Win32
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Debug|x64.ActiveCfg = Debug|x64
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Debug|x64.Build.0 = Debug|x64
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Debug|x86.ActiveCfg = Debug|Win32
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Debug|x86.Build.0 = Debug|Win32
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Release|x64.ActiveCfg = Release|x64
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Release|x64.Build.0 = Release|x64
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Release|x86.ActiveCfg = Release|Win32
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515}.Release|x86.Build.0 = Release|Win32
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Debug|x64.ActiveCfg = Debug|x64
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Debug|x64.Build.0 = Debug|x64
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Debug|x86.Build.0 = Debug|Win32
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Release|x64.ActiveCfg = Release|x64
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Release|x64.Build.0 = Release|x64
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Release|x86.ActiveCfg = Release|Win32
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,5 +120,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{10C4DDE6-CE1B-4D31-9473-AE058E45DBD8} = {C6EF9D78-C8C2-4B07-A792-E9E4A9D5EF6A}
 		{7266D3AA-CE04-482D-BF3C-EBF82A95E18C} = {C6EF9D78-C8C2-4B07-A792-E9E4A9D5EF6A}
+		{3ADF16B1-86B5-4C0D-9E9E-3F552B205515} = {C6EF9D78-C8C2-4B07-A792-E9E4A9D5EF6A}
+		{3C6C56CD-1868-42AC-BDAC-F92AB3095038} = {C6EF9D78-C8C2-4B07-A792-E9E4A9D5EF6A}
 	EndGlobalSection
 EndGlobal
