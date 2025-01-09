@@ -1,6 +1,6 @@
 include ../config.mk
 
-SOURCES := cmath iostream vector
+SOURCES := cmath iostream
 
 TARGETS := $(addsuffix .gcm, $(SOURCES))
 FIND_CMD := find $(PATH_BMI) -name
@@ -9,14 +9,15 @@ all: $(TARGETS)
 
 clean:
 	@for target in $(TARGETS); do \
-		$(FIND_CMD) $$target -exec rm -f {} +; \
+		$(FIND_CMD)  $$(basename $$target) -exec rm -f {} +; \
 	done
 
 %.gcm:
-	$(eval OUTPUT_PATH := $(shell $(FIND_CMD) $@))
-	@if [ -z "$(OUTPUT_PATH)" ]; then\
-		echo "Generating $@"; \
+	$(eval GCM_FILE := $(notdir $@))
+	$(eval FILE_PATH := $(shell $(FIND_CMD) $(GCM_FILE)))
+	@if [ -z "$(FILE_PATH)" ]; then\
+		echo "Generating $(GCM_FILE)"; \
 		$(C++) $(CFLAGS) $(CMI_MAPPER) -x c++-system-header $*; \
 	else \
-		echo "Found $(OUTPUT_PATH), skip generate"; \
+		echo "Found $(FILE_PATH), skip generate"; \
 	fi
