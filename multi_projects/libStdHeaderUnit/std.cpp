@@ -1,2 +1,2 @@
-#include <cmath>
-#include <iostream>
+import <cmath>;
+import <iostream>;

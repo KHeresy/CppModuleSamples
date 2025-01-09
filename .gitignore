@@ -9,4 +9,4 @@ x64/
 *.a
 *.lib
 *.exe
-a.out
+*.out
