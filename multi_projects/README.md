@@ -15,6 +15,14 @@ Detail blog in Traditional Chinese:
 - Applications:
   - `app1`
 
+## Makefile
+
+Only work for g++.
+
+Still some issues:
+- always rebuild system libraries
+- can't clean CMI files for each project
+
 ## Compile commands
 
 ### Visual C++ Command line (2022 17.12)

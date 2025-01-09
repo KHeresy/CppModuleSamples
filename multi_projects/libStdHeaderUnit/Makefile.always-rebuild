@@ -1,0 +1,12 @@
+include ../config.mk
+
+SOURCES := cmath iostream
+
+TARGETS := $(addsuffix .gcm, $(SOURCES))
+
+all: $(TARGETS)
+
+clean:
+
+%.gcm:
+	$(C++) $(CFLAGS) $(CMI_MAPPER) -x c++-system-header $*;
