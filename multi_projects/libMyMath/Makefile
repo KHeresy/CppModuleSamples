@@ -26,4 +26,5 @@ MyMath.IO.o: MyMath.IO.ixx MyMath.Types.o
 
 clean:
 	rm -f *.o
-	rm -f $(TARGET)
+	rm -f $(GCM_LIST)
+	rm -f $(TARGET)  $(PATH_LIB)/$(TARGET)

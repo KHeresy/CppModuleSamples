@@ -18,4 +18,5 @@ MyGraph_Impl.o: MyGraph_Impl.cpp MyGraph.o
 
 clean:
 	rm -f *.o
-	rm -f $(TARGET)
+	rm -f $(GCM_LIST)
+	rm -f $(TARGET)  $(PATH_LIB)/$(TARGET)

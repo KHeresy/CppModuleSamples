@@ -13,4 +13,4 @@ main.o: main.cpp
 
 clean:
 	rm -f *.o
-	rm -f $(TARGET)
+	rm -f $(TARGET) ../$(TARGET)

@@ -9,5 +9,3 @@ clean:
 	@(cd libMyMath;			make clean);
 	@(cd libMyGraph;		make clean);
 	@(cd app1;				make clean);
-	rm -rf ./lib/*
-	rm -rf ./bmi/*

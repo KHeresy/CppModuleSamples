@@ -155,6 +155,3 @@ clang++ main.o  -L ../lib/ -lMyGraph -lMyMath
 ## Makefile
 
 Only work for g++.
-
-Still some issues:
-- won't clean CMI files for each project
