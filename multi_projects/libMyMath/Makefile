@@ -12,17 +12,9 @@ $(TARGET): $(OBJECTS)
 	$(AR) $@ $(OBJECTS)
 	cp -f $@ $(PATH_LIB)
 
-MyMath.o: MyMath.ixx MyMath.Types.o MyMath.Compute.o
-	$(C++) $(CFLAGS) $(CMI_MAPPER) $(CMODULE) MyMath.ixx
-
-MyMath.Types.o: MyMath.Types.ixx
-	$(C++) $(CFLAGS) $(CMI_MAPPER) $(CMODULE) MyMath.Types.ixx
-
-MyMath.Compute.o: MyMath.Compute.ixx MyMath.Types.o
-	$(C++) $(CFLAGS) $(CMI_MAPPER) $(CMODULE) MyMath.Compute.ixx
-
-MyMath.IO.o: MyMath.IO.ixx MyMath.Types.o
-	$(C++) $(CFLAGS) $(CMI_MAPPER) $(CMODULE) MyMath.IO.ixx
+MyMath.o: MyMath.Types.o MyMath.Compute.o
+MyMath.Compute.o: MyMath.Types.o
+MyMath.IO.o: MyMath.Types.o
 
 clean:
 	rm -f $(OBJECTS) $(TARGET)

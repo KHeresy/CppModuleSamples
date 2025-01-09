@@ -13,3 +13,11 @@ CMODULE		= -c -x c++
 
 # Helper functions
 GCM_LIST	= $(patsubst %.o,$(PATH_BMI)/%.gcm,$(OBJECTS))
+
+# default build for .ixx
+%.o: %.ixx
+	$(C++) $(CFLAGS) $(CMI_MAPPER) $(CMODULE) $<
+
+# default build for .cpp
+%.o: %.cpp
+	$(C++) $(CFLAGS) $(CMI_MAPPER) -c $<
