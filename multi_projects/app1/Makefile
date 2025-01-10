@@ -12,5 +12,5 @@ main.o: main.cpp
 	$(C++) $(CFLAGS) $(CMI_MAPPER) -c main.cpp
 
 clean:
-	rm -f *.o
-	rm -f $(TARGET) ../$(TARGET)
+	rm -f $(OBJECTS) $(TARGET)
+	rm -f ../$(TARGET)

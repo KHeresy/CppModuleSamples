@@ -25,6 +25,5 @@ MyMath.IO.o: MyMath.IO.ixx MyMath.Types.o
 	$(C++) $(CFLAGS) $(CMI_MAPPER) $(CMODULE) MyMath.IO.ixx
 
 clean:
-	rm -f *.o
-	rm -f $(GCM_LIST)
-	rm -f $(TARGET)  $(PATH_LIB)/$(TARGET)
+	rm -f $(OBJECTS) $(TARGET)
+	rm -f $(GCM_LIST) $(PATH_LIB)/$(TARGET)

@@ -17,6 +17,5 @@ MyGraph_Impl.o: MyGraph_Impl.cpp MyGraph.o
 	$(C++) $(CFLAGS) $(CMI_MAPPER) -c MyGraph_Impl.cpp
 
 clean:
-	rm -f *.o
-	rm -f $(GCM_LIST)
-	rm -f $(TARGET)  $(PATH_LIB)/$(TARGET)
+	rm -f $(OBJECTS) $(TARGET)
+	rm -f $(GCM_LIST) $(PATH_LIB)/$(TARGET)
