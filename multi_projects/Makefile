@@ -1,11 +1,11 @@
 all:
-	@(cd libStdHeaderUnit;	make);
-	@(cd libMyMath;			make);
-	@(cd libMyGraph;		make);
-	@(cd app1;				make);
+	make -C libStdHeaderUnit
+	make -C libMyMath
+	make -C libMyGraph
+	make -C app1
 
 clean:
-	@(cd libStdHeaderUnit;	make clean);
-	@(cd libMyMath;			make clean);
-	@(cd libMyGraph;		make clean);
-	@(cd app1;				make clean);
+	make clean -C libStdHeaderUnit
+	make clean -C libMyMath
+	make clean -C libMyGraph
+	make clean -C app1
