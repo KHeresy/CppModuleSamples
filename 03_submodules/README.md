@@ -2,7 +2,7 @@
 
 ## Document
 
-see: (Traditional Chinese)
+Detail blog in Traditional Chinese: https://kheresy.wordpress.com/2025/02/04/cpp-20-sub-module/
 
 ## Files
 

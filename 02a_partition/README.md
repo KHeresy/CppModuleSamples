@@ -2,7 +2,7 @@
 
 ## Document
 
-see: (Traditional Chinese)
+Detail blog in Traditional Chinese: https://kheresy.wordpress.com/2025/01/21/cpp-20-module-partition/
 
 ## Files
 
